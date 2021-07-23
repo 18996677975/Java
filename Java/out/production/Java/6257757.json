@@ -1,0 +1,271 @@
+{
+  "flowName": "dso.fanyi",
+  "executionPath": "executions/6257757",
+  "applicationInformation": [],
+  "originExecIds": [],
+  "period": "1d",
+  "applicationIds": [],
+  "innerFlowOptions": {},
+  "cancelNodes": [],
+  "flow.creator": "lisn@rd.netease.com",
+  "jobRunningStatusCode": 0,
+  "proxyUsers": [],
+  "id": null,
+  "firstCheckDependencyTime": -1,
+  "scheduleWay": "PERIOD",
+  "inner_id": -1,
+  "scheduleExecTime": 1626377400000,
+  "executionOptions": {
+    "failurePaopaosOverride": false,
+    "sucessPaopaos": [],
+    "disabled": [],
+    "pipelineLevel": null,
+    "concurrentOption": "skip",
+    "sucessPhones": [],
+    "notifyOnFirstFailure": true,
+    "pipelineExecId": null,
+    "sucessMessages": [],
+    "successEmailsOverride": false,
+    "failureEmailsOverride": false,
+    "notifyOnLastFailure": false,
+    "memoryCheck": true,
+    "successEmails": [],
+    "failureMessages": [],
+    "failurePaopaos": [],
+    "failurePhones": [],
+    "failureEmails": [],
+    "successPaopaosOverride": false,
+    "flowParameters": {
+      "schedule.exec.period": "1d"
+    },
+    "enabled": [],
+    "failureMessagesOverride": false,
+    "queueLevel": 0,
+    "successMessagesOverride": false,
+    "failureAction": "FINISH_CURRENTLY_RUNNING"
+  },
+  "proxy.email": "lisn@rd.netease.com",
+  "projectAliasName": "dso.fanyi",
+  "isNodeExpire": false,
+  "invalid": 0,
+  "strict": false,
+  "executorId": 1,
+  "version": 2,
+  "endTime": -1,
+  "needCancel": false,
+  "project.mammut.user": "analysis",
+  "nodes": [
+    {
+      "inner_id": 0,
+      "status": "READY",
+      "updateTime": -1,
+      "inNodes": [
+        "\u68c0\u6d4b"
+      ],
+      "nodeType": null,
+      "startTime": -1,
+      "jobSource": "dso.fanyi.job",
+      "isNodeExpire": false,
+      "applicationIds": [],
+      "cancelNodes": [],
+      "applicationInformation": [],
+      "jobRunningStatusCode": 0,
+      "needCancel": false,
+      "attempt": 0,
+      "endTime": -1,
+      "type": "noop",
+      "id": "dso.fanyi",
+      "firstCheckDependencyTime": -1,
+      "innerExecId": -1
+    },
+    {
+      "inner_id": 1,
+      "status": "QUEUED",
+      "updateTime": 1626427851758,
+      "outNodes": [
+        "dso.fanyi"
+      ],
+      "nodeType": "script",
+      "startTime": -1,
+      "jobSource": "\u68c0\u6d4b.job",
+      "isNodeExpire": false,
+      "applicationIds": [],
+      "firstCheckDependencyTime": -1,
+      "cancelNodes": [],
+      "applicationInformation": [],
+      "jobRunningStatusCode": 0,
+      "needCancel": false,
+      "attempt": 15,
+      "pastAttempts": [
+        {
+          "status": "FAILED",
+          "endTime": 1626377438948,
+          "attempt": 0,
+          "applicationIds": [],
+          "startTime": 1626377438764
+        },
+        {
+          "status": "FAILED",
+          "endTime": 1626381039174,
+          "attempt": 1,
+          "applicationIds": [],
+          "startTime": 1626381038958
+        },
+        {
+          "status": "FAILED",
+          "endTime": 1626384648670,
+          "attempt": 2,
+          "applicationIds": [],
+          "startTime": 1626384648024
+        },
+        {
+          "status": "FAILED",
+          "endTime": 1626388248977,
+          "attempt": 3,
+          "applicationIds": [],
+          "startTime": 1626388248682
+        },
+        {
+          "status": "FAILED",
+          "endTime": 1626391849134,
+          "attempt": 4,
+          "applicationIds": [],
+          "startTime": 1626391848986
+        },
+        {
+          "status": "FAILED",
+          "endTime": 1626395449744,
+          "attempt": 5,
+          "applicationIds": [],
+          "startTime": 1626395449143
+        },
+        {
+          "status": "FAILED",
+          "endTime": 1626399050208,
+          "attempt": 6,
+          "applicationIds": [],
+          "startTime": 1626399049774
+        },
+        {
+          "status": "FAILED",
+          "endTime": 1626402650444,
+          "attempt": 7,
+          "applicationIds": [],
+          "startTime": 1626402650241
+        },
+        {
+          "status": "FAILED",
+          "endTime": 1626406250640,
+          "attempt": 8,
+          "applicationIds": [],
+          "startTime": 1626406250492
+        },
+        {
+          "status": "FAILED",
+          "endTime": 1626409850798,
+          "attempt": 9,
+          "applicationIds": [],
+          "startTime": 1626409850657
+        },
+        {
+          "status": "FAILED",
+          "endTime": 1626413450942,
+          "attempt": 10,
+          "applicationIds": [],
+          "startTime": 1626413450808
+        },
+        {
+          "status": "FAILED",
+          "endTime": 1626417051144,
+          "attempt": 11,
+          "applicationIds": [],
+          "startTime": 1626417050956
+        },
+        {
+          "status": "FAILED",
+          "endTime": 1626420651374,
+          "attempt": 12,
+          "applicationIds": [],
+          "startTime": 1626420651163
+        },
+        {
+          "status": "FAILED",
+          "endTime": 1626424251586,
+          "attempt": 13,
+          "applicationIds": [],
+          "startTime": 1626424251418
+        },
+        {
+          "status": "FAILED",
+          "endTime": 1626427851745,
+          "attempt": 14,
+          "applicationIds": [],
+          "startTime": 1626427851596
+        }
+      ],
+      "endTime": -1,
+      "type": "script",
+      "id": "\u68c0\u6d4b",
+      "postActionList": [],
+      "innerExecId": -1
+    }
+  ],
+  "type": null,
+  "status": "RUNNING",
+  "scheduleId": 149,
+  "nodeType": null,
+  "scheduleTimestamp": "1594989751628",
+  "projectName": "8eaa8a5a82ee4adfbb7f834d4e71497f",
+  "mammut.version": 1,
+  "flowInnerId": 0,
+  "project.creator": "lisn@rd.netease.com",
+  "submitTime": 1626377432574,
+  "updateTime": 1626429951818,
+  "submitUser": "hadoop",
+  "project.owner": "lisn@rd.netease.com",
+  "startTime": 1626377438752,
+  "lastModfiedTime": 1594989929432,
+  "resource": {
+    "creator": "lisn@rd.netease.com",
+    "storageType": "HDFS",
+    "projectId": 675,
+    "modifyTime": 1594989929439,
+    "id": 3669,
+    "projectVersion": 2,
+    "resourceVersion": 3,
+    "active": true,
+    "path": "/azkaban/resources/analysis/8eaa8a5a82ee4adfbb7f834d4e71497f/1594989929232",
+    "modifier": "lisn@rd.netease.com",
+    "createTime": 1594989929439
+  },
+  "properties": [],
+  "rootExecutionId": 6257757,
+  "innerExecId": -1,
+  "rootFlowInnerId": 0,
+  "dummy": false,
+  "waitNodes": [],
+  "attempt": 0,
+  "proxy.user": "analysis",
+  "versions": {
+    "hive.home": "2.1.1",
+    "parquet.lib": "2.1.1",
+    "sqoop.lib": "2.1.1",
+    "hive.server.url": "2.1.1",
+    "impala.hive.lib": "2.1.1",
+    "kafka.lib": "2.1.1",
+    "atlas.lib": "2.1.1"
+  },
+  "isInnerFLow": false,
+  "last.serial.flow.finish.time": 1626363066164,
+  "executionId": 6257757,
+  "project.mammut.email": "lisn@rd.netease.com",
+  "flowId": "dso.fanyi",
+  "last.serial.flow.exec.id": 6202945,
+  "flow.owner": "lisn@rd.netease.com",
+  "lastModifiedUser": "hadoop",
+  "rootProjectId": 675,
+  "projectId": 675,
+  "flowAliasName": "dso.fanyi",
+  "scheduleType": "SCHEDULE",
+  "isBatchTask": false
+}
